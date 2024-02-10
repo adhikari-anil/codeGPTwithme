@@ -2,7 +2,7 @@ import React from "react";
 
 function LeftLayout() {
   return (
-    <div className="h-screen w-80 text-center bg-white flex flex-col justify-between rounded-lg border-2">
+    <div className="h-[100vh] w-96 text-center bg-white flex flex-col justify-between rounded-lg border-2 overflow-y-scroll">
       <button className="text-black h-10 w-60 p-1 relative top-5 left-2 rounded-lg flex flex-row justify-between hover:bg-slate-400">
         <svg
           fill="#933e3e"
@@ -57,7 +57,7 @@ function LeftLayout() {
           </g>
         </svg>
       </button>
-      <div>
+      <div className="bg-slate-500">
         <h1> Hello GoodMorning Anil </h1>
       </div>
       <button className="rounded-lg h-10 w-60 flex flex-row justify-between relative bottom-3 left-2 bg-white hover:bg-slate-400">
